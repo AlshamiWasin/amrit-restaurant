@@ -34,7 +34,7 @@ export default function About() {
                   the rich flavors and traditions of Indian cooking with our community.
                 </p>
                 <p className="text-gray-600">
-                  Over the years, we've stayed true to our traditional recipes while innovating to
+                  Over the years, we&apos;ve stayed true to our traditional recipes while innovating to
                   create unique dining experiences. Every dish we serve is a reflection of our
                   commitment to quality and authenticity.
                 </p>
