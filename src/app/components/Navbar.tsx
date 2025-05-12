@@ -18,13 +18,13 @@ export default function Navbar() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-orange-600">Home</Link>
+            <Link href="/hours-location" className="text-gray-700 hover:text-orange-600">Horaires & Localisation</Link>
             <Link href="/menu" className="text-gray-700 hover:text-orange-600">Menu</Link>
-            <Link href="/about" className="text-gray-700 hover:text-orange-600">About</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-orange-600">Contact</Link>
+            <Link href="/gallery" className="text-gray-700 hover:text-orange-600">Galerie</Link>
+            <Link href="/about" className="text-gray-700 hover:text-orange-600">Notre Histoire</Link>
             <Link href="/reservations" 
                   className="bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700">
-              Reserve a Table
+              Réserver une Table
             </Link>
           </div>
 
@@ -65,25 +65,25 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/" 
+            <Link href="/hours-location" 
                   className="block px-3 py-2 text-gray-700 hover:text-orange-600">
-              Home
+              Horaires & Localisation
             </Link>
             <Link href="/menu" 
                   className="block px-3 py-2 text-gray-700 hover:text-orange-600">
               Menu
             </Link>
+            <Link href="/gallery" 
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600">
+              Galerie
+            </Link>
             <Link href="/about" 
                   className="block px-3 py-2 text-gray-700 hover:text-orange-600">
-              About
-            </Link>
-            <Link href="/contact" 
-                  className="block px-3 py-2 text-gray-700 hover:text-orange-600">
-              Contact
+              Notre Histoire
             </Link>
             <Link href="/reservations" 
                   className="block px-3 py-2 bg-orange-600 text-white rounded-md">
-              Reserve a Table
+              Réserver une Table
             </Link>
           </div>
         </div>
