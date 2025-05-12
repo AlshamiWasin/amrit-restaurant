@@ -1,4 +1,4 @@
-export default function PlaceholderImage({ text, width, height }: { text: string; width: number; height: number }) {
+export default function generatePlaceholderImage({ text, width, height }: { text: string; width: number; height: number }) {
   const svg = `
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
       <rect width="100%" height="100%" fill="#f97316"/>

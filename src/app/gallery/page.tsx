@@ -2,52 +2,52 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import InstagramFeed from '../components/InstagramFeed';
-import PlaceholderImage from '../components/PlaceholderImage';
+import generatePlaceholderImage from '../components/PlaceholderImage';
 
 export default function Gallery() {
   const images = [
     {
-      src: new PlaceholderImage({ text: 'Salle Principale', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Salle Principale', width: 600, height: 400 }),
       alt: 'Intérieur du Restaurant',
       title: 'Notre Salle Principale'
     },
     {
-      src: new PlaceholderImage({ text: 'Cuisine', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Cuisine', width: 600, height: 400 }),
       alt: 'Plat Signature',
       title: 'Cuisine Raffinée'
     },
     {
-      src: new PlaceholderImage({ text: 'Chef', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Chef', width: 600, height: 400 }),
       alt: 'Notre Chef',
       title: 'Le Chef en Action'
     },
     {
-      src: new PlaceholderImage({ text: 'Salon Privé', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Salon Privé', width: 600, height: 400 }),
       alt: 'Espace Privé',
       title: 'Salon Privé'
     },
     {
-      src: new PlaceholderImage({ text: 'Desserts', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Desserts', width: 600, height: 400 }),
       alt: 'Desserts',
       title: 'Nos Desserts'
     },
     {
-      src: new PlaceholderImage({ text: 'Bar', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Bar', width: 600, height: 400 }),
       alt: 'Le Bar',
       title: 'Notre Bar'
     },
     {
-      src: new PlaceholderImage({ text: 'Événements', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Événements', width: 600, height: 400 }),
       alt: 'Événements',
       title: 'Événements Spéciaux'
     },
     {
-      src: new PlaceholderImage({ text: 'Entrées', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Entrées', width: 600, height: 400 }),
       alt: 'Entrées',
       title: 'Nos Entrées'
     },
     {
-      src: new PlaceholderImage({ text: 'Terrasse', width: 600, height: 400 }),
+      src: generatePlaceholderImage({ text: 'Terrasse', width: 600, height: 400 }),
       alt: 'La Terrasse',
       title: 'Notre Terrasse'
     }

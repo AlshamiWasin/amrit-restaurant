@@ -1,47 +1,47 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import PlaceholderImage from './PlaceholderImage';
+import generatePlaceholderImage from './PlaceholderImage';
 
 // This is mock data - in a real application, this would come from the Instagram API
 const instagramPosts = [
   {
     id: '1',
-    imageUrl: new PlaceholderImage({ text: 'Plat Signature', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Plat Signature', width: 400, height: 400 }),
     caption: 'Notre nouveau plat signature 🍽️ #AmritRestaurant #GastronomieIndienne',
     likes: 124,
     comments: 12
   },
   {
     id: '2',
-    imageUrl: new PlaceholderImage({ text: 'Chef en Action', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Chef en Action', width: 400, height: 400 }),
     caption: 'Le Chef en pleine création 👨‍🍳 #CuisineIndienne #ChefLife',
     likes: 98,
     comments: 8
   },
   {
     id: '3',
-    imageUrl: new PlaceholderImage({ text: 'Ambiance', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Ambiance', width: 400, height: 400 }),
     caption: 'L\'ambiance parfaite pour votre soirée ✨ #Restaurant #Paris',
     likes: 156,
     comments: 14
   },
   {
     id: '4',
-    imageUrl: new PlaceholderImage({ text: 'Desserts', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Desserts', width: 400, height: 400 }),
     caption: 'Découvrez nos desserts traditionnels 🍨 #Dessert #Indien',
     likes: 203,
     comments: 18
   },
   {
     id: '5',
-    imageUrl: new PlaceholderImage({ text: 'Événements', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Événements', width: 400, height: 400 }),
     caption: 'Soirée spéciale ce weekend 🎉 #EventPrivé #AmritRestaurant',
     likes: 167,
     comments: 21
   },
   {
     id: '6',
-    imageUrl: new PlaceholderImage({ text: 'Cocktails', width: 400, height: 400 }),
+    imageUrl: generatePlaceholderImage({ text: 'Cocktails', width: 400, height: 400 }),
     caption: 'Nos cocktails signatures vous attendent 🍸 #Cocktails #Bar',
     likes: 145,
     comments: 11
